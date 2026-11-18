@@ -1,0 +1,272 @@
+[
+  {
+    "id": "water-001",
+    "title": "Scheduled water supply maintenance",
+    "body": "Water supply in Blocks A and B, Sector 12, will be paused tomorrow from 10:00 AM to 2:00 PM for planned pipeline maintenance.\n\nPlease store enough drinking water before the work begins. The maintenance team will restore supply after safety checks.\n\nThis is a fictional notice for a student demonstration, not an actual service interruption.",
+    "action": "Store sufficient drinking water before 10:00 AM tomorrow. Keep taps closed during the maintenance window.",
+    "issuer": "Sample Water Services Office",
+    "location": "Blocks A & B",
+    "category": "utilities",
+    "critical": true,
+    "urgent": true,
+    "published": -1,
+    "expiry": 2,
+    "status": "published",
+    "version": 1,
+    "translations": {
+      "hi": {
+        "title": "जल आपूर्ति के लिए निर्धारित रखरखाव",
+        "body": "सेक्टर 12 के ब्लॉक A और B में पाइपलाइन के नियोजित रखरखाव के लिए कल सुबह 10:00 बजे से दोपहर 2:00 बजे तक पानी की आपूर्ति बंद रहेगी।\n\nकृपया काम शुरू होने से पहले पर्याप्त पीने का पानी जमा कर लें। सुरक्षा जाँच के बाद आपूर्ति बहाल की जाएगी।\n\nयह छात्र प्रदर्शन के लिए एक काल्पनिक सूचना है, वास्तविक सेवा बाधा नहीं।",
+        "action": "कल सुबह 10:00 बजे से पहले पर्याप्त पीने का पानी जमा कर लें। रखरखाव के दौरान नल बंद रखें।",
+        "status": "pending",
+        "provider": "Handwritten sample draft",
+        "reviewer": null,
+        "reviewedAt": null,
+        "version": 1
+      },
+      "pa": {
+        "title": "ਪਾਣੀ ਦੀ ਸਪਲਾਈ ਲਈ ਨਿਰਧਾਰਤ ਰੱਖ-ਰਖਾਅ",
+        "body": "ਸੈਕਟਰ 12 ਦੇ ਬਲਾਕ A ਅਤੇ B ਵਿੱਚ ਪਾਈਪਲਾਈਨ ਦੇ ਨਿਯੋਜਿਤ ਰੱਖ-ਰਖਾਅ ਲਈ ਕੱਲ੍ਹ ਸਵੇਰੇ 10:00 ਵਜੇ ਤੋਂ ਦੁਪਹਿਰ 2:00 ਵਜੇ ਤੱਕ ਪਾਣੀ ਦੀ ਸਪਲਾਈ ਬੰਦ ਰਹੇਗੀ।\n\nਕੰਮ ਸ਼ੁਰੂ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਪੀਣ ਵਾਲਾ ਪਾਣੀ ਇਕੱਠਾ ਕਰ ਲਵੋ। ਸੁਰੱਖਿਆ ਜਾਂਚ ਤੋਂ ਬਾਅਦ ਸਪਲਾਈ ਬਹਾਲ ਕੀਤੀ ਜਾਵੇਗੀ।\n\nਇਹ ਵਿਦਿਆਰਥੀ ਪ੍ਰਦਰਸ਼ਨ ਲਈ ਕਾਲਪਨਿਕ ਸੂਚਨਾ ਹੈ, ਅਸਲ ਸੇਵਾ ਵਿੱਚ ਰੁਕਾਵਟ ਨਹੀਂ।",
+        "action": "ਕੱਲ੍ਹ ਸਵੇਰੇ 10:00 ਵਜੇ ਤੋਂ ਪਹਿਲਾਂ ਪੀਣ ਵਾਲਾ ਪਾਣੀ ਇਕੱਠਾ ਕਰ ਲਵੋ। ਰੱਖ-ਰਖਾਅ ਦੌਰਾਨ ਟੂਟੀਆਂ ਬੰਦ ਰੱਖੋ।",
+        "status": "pending",
+        "provider": "Handwritten sample draft",
+        "reviewer": null,
+        "reviewedAt": null,
+        "version": 1
+      }
+    },
+    "original_language": "en",
+    "highlighted": true
+  },
+  {
+    "id": "health-002",
+    "title": "A healthier community starts with you",
+    "body": "A sample community health awareness session is planned at the Community Centre this Saturday, 9:00 AM–1:00 PM.\n\nThe demonstration programme includes information about daily wellbeing and local support services. Residents of all ages are welcome.\n\nThis fictional event is not medical advice or a real health service.",
+    "action": "For this demo, imagine visiting the information desk at the Community Centre. No booking or personal information is needed.",
+    "issuer": "Sample Community Health Team",
+    "location": "Community Centre",
+    "category": "health",
+    "critical": true,
+    "urgent": false,
+    "published": -2,
+    "expiry": 8,
+    "status": "published",
+    "version": 1,
+    "translations": {
+      "hi": {
+        "title": "स्वस्थ समुदाय की शुरुआत आपसे",
+        "body": "इस शनिवार सामुदायिक केंद्र में सुबह 9:00 बजे से दोपहर 1:00 बजे तक एक नमूना स्वास्थ्य जागरूकता सत्र की योजना है।\n\nकार्यक्रम में दैनिक स्वास्थ्य और स्थानीय सहायता सेवाओं की जानकारी शामिल है। सभी आयु के निवासी आमंत्रित हैं।\n\nयह काल्पनिक कार्यक्रम चिकित्सा सलाह या वास्तविक स्वास्थ्य सेवा नहीं है।",
+        "action": "इस प्रदर्शन में सामुदायिक केंद्र की सूचना डेस्क पर जाने की कल्पना करें। बुकिंग या निजी जानकारी की आवश्यकता नहीं है।",
+        "status": "pending",
+        "provider": "Handwritten sample draft",
+        "reviewer": null,
+        "reviewedAt": null,
+        "version": 1
+      },
+      "pa": {
+        "title": "ਸਿਹਤਮੰਦ ਭਾਈਚਾਰੇ ਦੀ ਸ਼ੁਰੂਆਤ ਤੁਹਾਡੇ ਤੋਂ",
+        "body": "ਇਸ ਸ਼ਨੀਵਾਰ ਭਾਈਚਾਰਕ ਕੇਂਦਰ ਵਿੱਚ ਸਵੇਰੇ 9:00 ਵਜੇ ਤੋਂ ਦੁਪਹਿਰ 1:00 ਵਜੇ ਤੱਕ ਇੱਕ ਨਮੂਨਾ ਸਿਹਤ ਜਾਗਰੂਕਤਾ ਸੈਸ਼ਨ ਦੀ ਯੋਜਨਾ ਹੈ।\n\nਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਰੋਜ਼ਾਨਾ ਤੰਦਰੁਸਤੀ ਅਤੇ ਸਥਾਨਕ ਸਹਾਇਤਾ ਸੇਵਾਵਾਂ ਦੀ ਜਾਣਕਾਰੀ ਸ਼ਾਮਲ ਹੈ। ਹਰ ਉਮਰ ਦੇ ਨਿਵਾਸੀਆਂ ਦਾ ਸਵਾਗਤ ਹੈ।\n\nਇਹ ਕਾਲਪਨਿਕ ਸਮਾਗਮ ਡਾਕਟਰੀ ਸਲਾਹ ਜਾਂ ਅਸਲ ਸਿਹਤ ਸੇਵਾ ਨਹੀਂ ਹੈ।",
+        "action": "ਇਸ ਪ੍ਰਦਰਸ਼ਨ ਵਿੱਚ ਭਾਈਚਾਰਕ ਕੇਂਦਰ ਦੇ ਸੂਚਨਾ ਡੈਸਕ ਉੱਤੇ ਜਾਣ ਦੀ ਕਲਪਨਾ ਕਰੋ। ਬੁਕਿੰਗ ਜਾਂ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।",
+        "status": "pending",
+        "provider": "Handwritten sample draft",
+        "reviewer": null,
+        "reviewedAt": null,
+        "version": 1
+      }
+    },
+    "original_language": "en",
+    "highlighted": false
+  },
+  {
+    "id": "event-003",
+    "title": "Let’s make our neighbourhood greener",
+    "body": "Meet your neighbours for a relaxed tree-planting and park clean-up morning this Sunday, 8:00 AM–11:00 AM, at Central Park.\n\nBring a reusable water bottle and comfortable shoes. Sample gardening equipment will be provided. Families and first-time volunteers are welcome.\n\nThis is a fictional community event created for this project.",
+    "action": "Meet at the Central Park main gate at 8:00 AM in this sample scenario.",
+    "issuer": "Sample Green Neighbourhood Group",
+    "location": "Central Park",
+    "category": "events",
+    "critical": false,
+    "urgent": false,
+    "published": -3,
+    "expiry": 12,
+    "status": "published",
+    "version": 1,
+    "translations": {
+      "hi": {
+        "title": "अपने मोहल्ले को और हरा-भरा बनाएँ",
+        "body": "इस रविवार सुबह 8:00 बजे से 11:00 बजे तक सेंट्रल पार्क में पौधारोपण और सफाई के लिए अपने पड़ोसियों से मिलें।\n\nदोबारा उपयोग की जा सकने वाली पानी की बोतल और आरामदायक जूते लाएँ। बागवानी के नमूना उपकरण उपलब्ध होंगे। परिवारों और नए स्वयंसेवकों का स्वागत है।\n\nयह इस परियोजना के लिए बनाया गया एक काल्पनिक कार्यक्रम है।",
+        "action": "इस नमूना परिदृश्य में सुबह 8:00 बजे सेंट्रल पार्क के मुख्य द्वार पर मिलें।",
+        "status": "pending",
+        "provider": "Handwritten sample draft",
+        "reviewer": null,
+        "reviewedAt": null,
+        "version": 1
+      },
+      "pa": {
+        "title": "ਆਓ ਆਪਣੇ ਮੁਹੱਲੇ ਨੂੰ ਹੋਰ ਹਰਿਆ-ਭਰਿਆ ਬਣਾਈਏ",
+        "body": "ਇਸ ਐਤਵਾਰ ਸਵੇਰੇ 8:00 ਵਜੇ ਤੋਂ 11:00 ਵਜੇ ਤੱਕ ਸੈਂਟਰਲ ਪਾਰਕ ਵਿੱਚ ਰੁੱਖ ਲਗਾਉਣ ਅਤੇ ਸਫਾਈ ਲਈ ਆਪਣੇ ਗੁਆਂਢੀਆਂ ਨਾਲ ਮਿਲੋ।\n\nਮੁੜ ਵਰਤੋਂ ਵਾਲੀ ਪਾਣੀ ਦੀ ਬੋਤਲ ਅਤੇ ਆਰਾਮਦਾਇਕ ਜੁੱਤੀਆਂ ਲਿਆਓ। ਬਾਗਬਾਨੀ ਦੇ ਨਮੂਨਾ ਸੰਦ ਉਪਲਬਧ ਹੋਣਗੇ। ਪਰਿਵਾਰਾਂ ਅਤੇ ਨਵੇਂ ਸਵੈਸੇਵਕਾਂ ਦਾ ਸਵਾਗਤ ਹੈ।\n\nਇਹ ਇਸ ਪ੍ਰੋਜੈਕਟ ਲਈ ਬਣਾਇਆ ਗਿਆ ਇੱਕ ਕਾਲਪਨਿਕ ਸਮਾਗਮ ਹੈ।",
+        "action": "ਇਸ ਨਮੂਨਾ ਸਥਿਤੀ ਵਿੱਚ ਸਵੇਰੇ 8:00 ਵਜੇ ਸੈਂਟਰਲ ਪਾਰਕ ਦੇ ਮੁੱਖ ਦਰਵਾਜ਼ੇ ਉੱਤੇ ਮਿਲੋ।",
+        "status": "pending",
+        "provider": "Handwritten sample draft",
+        "reviewer": null,
+        "reviewedAt": null,
+        "version": 1
+      }
+    },
+    "original_language": "en",
+    "highlighted": false
+  },
+  {
+    "id": "service-004",
+    "title": "Updated timings for the resident help desk",
+    "body": "The sample resident help desk at the Municipal Office will now be open Monday to Friday, 9:00 AM–4:00 PM, with a lunch break from 1:00 PM–1:30 PM.\n\nThe desk can guide residents through sample service requests and community information. It is closed on public holidays.\n\nThese are demonstration timings for a fictional office.",
+    "action": "Check the sample opening hours before planning a visit. Do not send real documents to this demo.",
+    "issuer": "Sample Municipal Services",
+    "location": "Municipal Office",
+    "category": "services",
+    "critical": false,
+    "urgent": false,
+    "published": -4,
+    "expiry": 30,
+    "status": "published",
+    "version": 1,
+    "translations": {
+      "hi": {
+        "title": "निवासी सहायता डेस्क का नया समय",
+        "body": "नगरपालिका कार्यालय की नमूना निवासी सहायता डेस्क सोमवार से शुक्रवार सुबह 9:00 बजे से शाम 4:00 बजे तक खुलेगी। दोपहर 1:00 बजे से 1:30 बजे तक भोजन अवकाश रहेगा।\n\nडेस्क नमूना सेवा अनुरोधों और सामुदायिक जानकारी में मदद कर सकती है। सार्वजनिक अवकाश पर बंद रहेगी।\n\nये एक काल्पनिक कार्यालय के प्रदर्शन समय हैं।",
+        "action": "जाने से पहले नमूना समय देख लें। इस प्रदर्शन में वास्तविक दस्तावेज़ न भेजें।",
+        "status": "pending",
+        "provider": "Handwritten sample draft",
+        "reviewer": null,
+        "reviewedAt": null,
+        "version": 1
+      },
+      "pa": {
+        "title": "ਨਿਵਾਸੀ ਸਹਾਇਤਾ ਡੈਸਕ ਦਾ ਨਵਾਂ ਸਮਾਂ",
+        "body": "ਨਗਰਪਾਲਿਕਾ ਦਫ਼ਤਰ ਦੀ ਨਮੂਨਾ ਨਿਵਾਸੀ ਸਹਾਇਤਾ ਡੈਸਕ ਸੋਮਵਾਰ ਤੋਂ ਸ਼ੁੱਕਰਵਾਰ ਸਵੇਰੇ 9:00 ਵਜੇ ਤੋਂ ਸ਼ਾਮ 4:00 ਵਜੇ ਤੱਕ ਖੁੱਲ੍ਹੇਗੀ। ਦੁਪਹਿਰ 1:00 ਵਜੇ ਤੋਂ 1:30 ਵਜੇ ਤੱਕ ਖਾਣੇ ਦੀ ਛੁੱਟੀ ਹੋਵੇਗੀ।\n\nਡੈਸਕ ਨਮੂਨਾ ਸੇਵਾ ਬੇਨਤੀਆਂ ਅਤੇ ਭਾਈਚਾਰਕ ਜਾਣਕਾਰੀ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦੀ ਹੈ। ਜਨਤਕ ਛੁੱਟੀਆਂ ਉੱਤੇ ਬੰਦ ਰਹੇਗੀ।\n\nਇਹ ਇੱਕ ਕਾਲਪਨਿਕ ਦਫ਼ਤਰ ਦੇ ਪ੍ਰਦਰਸ਼ਨ ਸਮੇਂ ਹਨ।",
+        "action": "ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਨਮੂਨਾ ਸਮਾਂ ਦੇਖ ਲਵੋ। ਇਸ ਪ੍ਰਦਰਸ਼ਨ ਵਿੱਚ ਅਸਲ ਦਸਤਾਵੇਜ਼ ਨਾ ਭੇਜੋ।",
+        "status": "pending",
+        "provider": "Handwritten sample draft",
+        "reviewer": null,
+        "reviewedAt": null,
+        "version": 1
+      }
+    },
+    "original_language": "en",
+    "highlighted": false
+  },
+  {
+    "id": "education-005",
+    "title": "A little help with your digital everyday",
+    "body": "The sample community library is hosting a beginner-friendly digital skills workshop on Wednesday, 3:00 PM–5:00 PM.\n\nPractise using a browser, finding reliable information and recognising suspicious messages. The workshop does not request passwords or payment information.\n\nThis is a fictional educational notice.",
+    "action": "In this demo scenario, visit the library information desk to express interest. Never share passwords.",
+    "issuer": "Sample Community Library",
+    "location": "Community Library",
+    "category": "education",
+    "critical": false,
+    "urgent": false,
+    "published": -5,
+    "expiry": 18,
+    "status": "published",
+    "version": 1,
+    "translations": {
+      "hi": {
+        "title": "डिजिटल जीवन को थोड़ा आसान बनाएँ",
+        "body": "नमूना सामुदायिक पुस्तकालय बुधवार दोपहर 3:00 बजे से शाम 5:00 बजे तक शुरुआती डिजिटल कौशल कार्यशाला आयोजित कर रहा है।\n\nब्राउज़र चलाना, विश्वसनीय जानकारी खोजना और संदिग्ध संदेश पहचानना सीखें। पासवर्ड या भुगतान जानकारी नहीं माँगी जाएगी।\n\nयह एक काल्पनिक शैक्षिक सूचना है।",
+        "action": "इस प्रदर्शन में रुचि बताने के लिए पुस्तकालय की सूचना डेस्क पर जाएँ। पासवर्ड कभी साझा न करें।",
+        "status": "pending",
+        "provider": "Handwritten sample draft",
+        "reviewer": null,
+        "reviewedAt": null,
+        "version": 1
+      },
+      "pa": {
+        "title": "ਡਿਜੀਟਲ ਜ਼ਿੰਦਗੀ ਨੂੰ ਥੋੜ੍ਹਾ ਸੌਖਾ ਬਣਾਈਏ",
+        "body": "ਨਮੂਨਾ ਭਾਈਚਾਰਕ ਲਾਇਬ੍ਰੇਰੀ ਬੁੱਧਵਾਰ ਦੁਪਹਿਰ 3:00 ਵਜੇ ਤੋਂ ਸ਼ਾਮ 5:00 ਵਜੇ ਤੱਕ ਸ਼ੁਰੂਆਤੀ ਡਿਜੀਟਲ ਹੁਨਰ ਵਰਕਸ਼ਾਪ ਕਰਵਾ ਰਹੀ ਹੈ।\n\nਬ੍ਰਾਊਜ਼ਰ ਵਰਤਣਾ, ਭਰੋਸੇਯੋਗ ਜਾਣਕਾਰੀ ਲੱਭਣਾ ਅਤੇ ਸ਼ੱਕੀ ਸੁਨੇਹੇ ਪਛਾਣਨਾ ਸਿੱਖੋ। ਪਾਸਵਰਡ ਜਾਂ ਭੁਗਤਾਨ ਜਾਣਕਾਰੀ ਨਹੀਂ ਮੰਗੀ ਜਾਵੇਗੀ।\n\nਇਹ ਇੱਕ ਕਾਲਪਨਿਕ ਵਿੱਦਿਅਕ ਸੂਚਨਾ ਹੈ।",
+        "action": "ਇਸ ਪ੍ਰਦਰਸ਼ਨ ਵਿੱਚ ਦਿਲਚਸਪੀ ਦੱਸਣ ਲਈ ਲਾਇਬ੍ਰੇਰੀ ਦੇ ਸੂਚਨਾ ਡੈਸਕ ਉੱਤੇ ਜਾਓ। ਪਾਸਵਰਡ ਕਦੇ ਸਾਂਝਾ ਨਾ ਕਰੋ।",
+        "status": "pending",
+        "provider": "Handwritten sample draft",
+        "reviewer": null,
+        "reviewedAt": null,
+        "version": 1
+      }
+    },
+    "original_language": "en",
+    "highlighted": false
+  },
+  {
+    "id": "safety-006",
+    "title": "Keep shared spaces safe and accessible",
+    "body": "Please keep corridors, stairways and emergency exits clear of furniture, bicycles and stored items.\n\nClear access routes help everyone move around more easily. Tell your building manager if you notice a blocked shared access route.\n\nThis fictional sample is not a substitute for official local safety guidance.",
+    "action": "Keep shared access routes clear and follow actual instructions issued by your local authorities.",
+    "issuer": "Sample Residents Association",
+    "location": "All sectors",
+    "category": "safety",
+    "critical": true,
+    "urgent": false,
+    "published": -6,
+    "expiry": 25,
+    "status": "published",
+    "version": 1,
+    "translations": {
+      "hi": {
+        "title": "साझा स्थान सुरक्षित और सुलभ रखें",
+        "body": "कृपया गलियारे, सीढ़ियाँ और आपातकालीन निकास फर्नीचर, साइकिल और सामान से खाली रखें।\n\nखुले रास्ते सभी की आवाजाही आसान बनाते हैं। साझा रास्ता बंद दिखे तो भवन प्रबंधक को बताएँ।\n\nयह काल्पनिक नमूना आधिकारिक स्थानीय सुरक्षा निर्देशों का विकल्प नहीं है।",
+        "action": "साझा रास्ते खुले रखें और स्थानीय अधिकारियों के वास्तविक निर्देशों का पालन करें।",
+        "status": "pending",
+        "provider": "Handwritten sample draft",
+        "reviewer": null,
+        "reviewedAt": null,
+        "version": 1
+      },
+      "pa": {
+        "title": "ਸਾਂਝੀਆਂ ਥਾਵਾਂ ਸੁਰੱਖਿਅਤ ਅਤੇ ਪਹੁੰਚਯੋਗ ਰੱਖੋ",
+        "body": "ਕਿਰਪਾ ਕਰਕੇ ਗਲਿਆਰੇ, ਪੌੜੀਆਂ ਅਤੇ ਐਮਰਜੈਂਸੀ ਨਿਕਾਸ ਫਰਨੀਚਰ, ਸਾਈਕਲਾਂ ਅਤੇ ਸਮਾਨ ਤੋਂ ਖਾਲੀ ਰੱਖੋ।\n\nਖੁੱਲ੍ਹੇ ਰਸਤੇ ਹਰ ਕਿਸੇ ਦੀ ਆਵਾਜਾਈ ਸੌਖੀ ਬਣਾਉਂਦੇ ਹਨ। ਸਾਂਝਾ ਰਸਤਾ ਬੰਦ ਦਿਸੇ ਤਾਂ ਇਮਾਰਤ ਦੇ ਪ੍ਰਬੰਧਕ ਨੂੰ ਦੱਸੋ।\n\nਇਹ ਕਾਲਪਨਿਕ ਨਮੂਨਾ ਅਧਿਕਾਰਤ ਸਥਾਨਕ ਸੁਰੱਖਿਆ ਹਦਾਇਤਾਂ ਦਾ ਬਦਲ ਨਹੀਂ ਹੈ।",
+        "action": "ਸਾਂਝੇ ਰਸਤੇ ਖੁੱਲ੍ਹੇ ਰੱਖੋ ਅਤੇ ਸਥਾਨਕ ਅਧਿਕਾਰੀਆਂ ਦੀਆਂ ਅਸਲ ਹਦਾਇਤਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ।",
+        "status": "pending",
+        "provider": "Handwritten sample draft",
+        "reviewer": null,
+        "reviewedAt": null,
+        "version": 1
+      }
+    },
+    "original_language": "en",
+    "highlighted": false
+  },
+  {
+    "id": "archive-007",
+    "title": "Last month’s community book exchange",
+    "body": "This fictional community book exchange has ended. Residents were invited to share gently used books at the Community Library.\n\nThis notice is retained as an example of an expired announcement.",
+    "action": "No action needed. This sample event has ended.",
+    "issuer": "Sample Community Library",
+    "location": "Community Library",
+    "category": "events",
+    "critical": false,
+    "urgent": false,
+    "published": -35,
+    "expiry": -5,
+    "status": "published",
+    "version": 1,
+    "translations": {},
+    "original_language": "en",
+    "highlighted": false
+  },
+  {
+    "id": "draft-008",
+    "title": "Weekend community art circle",
+    "body": "A proposed sample art circle for residents at the Community Centre. Bring paper, pencils and your ideas.\n\nThis draft is fictional and is not visible on the public notice board until published.",
+    "action": "Details to be confirmed by the sample organiser.",
+    "issuer": "Sample Arts Collective",
+    "location": "Community Centre",
+    "category": "events",
+    "critical": false,
+    "urgent": false,
+    "published": 0,
+    "expiry": 20,
+    "status": "draft",
+    "version": 1,
+    "translations": {},
+    "original_language": "en",
+    "highlighted": false
+  }
+]

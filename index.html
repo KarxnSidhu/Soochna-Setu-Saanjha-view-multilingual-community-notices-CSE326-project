@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="#194b40" name="theme-color"/>
+  <meta content="Saajha &mdash; a student community notice board for accessible community notices in English, Hindi and Punjabi." name="description"/>
+  <title>
+   Saajha &middot; Community Notice Board
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <script defer src="translations.js"></script>
+  <script defer="" src="app.js">
+  </script>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   Skip to main content
+  </a>
+  <div class="utility-bar">
+   <div class="container utility-inner">
+    <span>
+     <span class="status-dot">
+     </span>
+     A little clarity. A closer
+          community.
+    </span>
+    <div>
+     <span class="demo-label">
+      YOUR COMMUNITY &middot; CONNECTED
+     </span>
+     <button aria-label="Increase text size" id="text-size" title="Toggle larger text">
+      A
+      <span>
+       +
+      </span>
+     </button>
+    </div>
+   </div>
+  </div>
+  <header class="site-header">
+   <div class="container header-inner">
+    <a aria-label="Saajha home" class="brand" href="#board">
+     <span aria-hidden="true" class="brand-mark">
+      S
+      <span>
+       &nearrow;
+      </span>
+     </span>
+     <span>
+      Soochna
+      <span class="brand-accent">
+       Setu
+      </span>
+      <small data-i18n="brandTag">
+       Information that brings us together
+      </small>
+     </span>
+    </a>
+    <nav aria-label="Main navigation" class="main-nav">
+     <a class="active" data-i18n="noticeBoard" data-page="board" href="#board">
+      Notice board
+     </a>
+     <a data-page="saved" href="#saved">
+      <span data-i18n="saved">
+       Saved
+      </span>
+      <span class="nav-count" id="saved-count">
+       0
+      </span>
+     </a>
+     <a data-i18n="archive" data-page="archive" href="#archive">
+      Archive
+     </a>
+    </nav>
+    <div class="header-actions">
+     <label class="language-control">
+      <span aria-hidden="true">
+       文
+      </span>
+      <span class="sr-only" data-i18n="chooseLanguage">
+       Choose language
+      </span>
+      <select id="language">
+       <option value="en">
+        English
+       </option>
+       <option value="hi">
+        हिन्दी
+       </option>
+       <option value="pa">
+        ਪੰਜਾਬੀ
+       </option>
+      </select>
+     </label>
+     <button class="button button-outline small" id="admin-entry">
+      <span aria-hidden="true">
+       &nearrow;
+      </span>
+      <span data-i18n="admin">
+       Admin space
+      </span>
+     </button>
+    </div>
+   </div>
+  </header>
+  <main id="main" tabindex="-1">
+   <section id="public-view">
+    <!-- Hero introduction -->
+    <section class="hero">
+     <div class="container hero-grid">
+      <div class="hero-copy">
+       <div class="eyebrow">
+        <span class="tiny-line">
+        </span>
+        <span data-i18n="eyebrow">
+         YOUR LOCAL INFORMATION, WITHOUT THE BARRIERS
+        </span>
+       </div>
+       <h1>
+        <span data-i18n="heroLine1">
+         One community.
+        </span>
+        <br/>
+        <span class="serif" data-i18n="heroLine2">
+         Many languages.
+        </span>
+       </h1>
+       <p data-i18n="heroDescription">
+        The updates that matter, in a language that feels like home.
+                Find community notices, understand the details, and never miss a
+                thing.
+       </p>
+       <div class="hero-tags">
+        <span>
+         <b aria-hidden="true">
+          &checkmark;
+         </b>
+         <span data-i18n="clearSources">
+          Clear sources
+         </span>
+        </span>
+        <span>
+         <b aria-hidden="true">
+          文
+         </b>
+         <span data-i18n="threeLanguages">
+          3 language options
+         </span>
+        </span>
+        <span>
+         <b aria-hidden="true">
+          ♧
+         </b>
+         <span data-i18n="builtForEveryone">
+          Built for everyone
+         </span>
+        </span>
+       </div>
+      </div>
+      <aside class="hero-note">
+       <div class="note-top">
+        <span class="live-label">
+         <i>
+         </i>
+         <span data-i18n="communityCorner">
+          COMMUNITY CORNER
+         </span>
+        </span>
+        <span aria-hidden="true">
+         &nearrow;
+        </span>
+       </div>
+       <p class="note-greeting">
+        <span lang="en">
+         Hello.
+        </span>
+        <span lang="hi">
+         नमस्ते।
+        </span>
+        <br/>
+        <span lang="pa">
+         ਸਤ ਸ੍ਰੀ ਅਕਾਲ।
+        </span>
+       </p>
+       <p data-i18n="cornerDescription">
+        Different words. The same sense of belonging.
+       </p>
+       <div class="note-bottom">
+        <span aria-hidden="true" class="avatar-stack">
+         <i>
+          ਅ
+         </i>
+         <i>
+          अ
+         </i>
+         <i>
+          A
+         </i>
+        </span>
+        <span data-i18n="cornerBottom">
+         A bridge between
+         <br/>
+         you and your community.
+        </span>
+       </div>
+      </aside>
+     </div>
+    </section>
+    <div class="container board-container">
+     <div class="urgent-banner" hidden="" id="urgent-banner">
+     </div>
+     <!-- Sidebar categories, search controls and notice cards -->
+    <section aria-labelledby="board-title" class="board-layout">
+      <aside class="sidebar">
+       <div class="sidebar-heading">
+        <span data-i18n="browseCategories">
+         BROWSE CATEGORIES
+        </span>
+        <span aria-hidden="true">
+         ⌘
+        </span>
+       </div>
+       <div aria-label="Notice categories" class="category-list" id="categories">
+       </div>
+       <div class="help-card">
+        <span aria-hidden="true" class="help-icon">
+         文
+        </span>
+        <h3 data-i18n="yourLanguage">
+         Your language. Your choice.
+        </h3>
+        <p data-i18n="languageHelp">
+         Choose a language above. Every notice keeps its original text,
+                  so you can always check the source.
+        </p>
+        <button class="text-button" id="how-translations-work">
+         <span data-i18n="howItWorks">
+          How translations work
+         </span>
+         <span aria-hidden="true">
+          &nearrow;
+         </span>
+        </button>
+       </div>
+       <div class="sidebar-foot">
+        <span class="status-dot">
+        </span>
+        <span data-i18n="sampleCommunity">
+         Sample community &middot; Sector 12
+        </span>
+       </div>
+      </aside>
+      <div class="board-main">
+       <div class="section-heading">
+        <div>
+         <div class="eyebrow" data-i18n="stayInTheLoop" id="board-eyebrow">
+          STAY IN THE LOOP
+         </div>
+         <h2 data-i18n="communityNotices" id="board-title">
+          Community notices
+          <span class="title-dot">
+           .
+          </span>
+         </h2>
+         <p data-i18n="boardDescription" id="board-description">
+          A shared space for everything you need to know.
+         </p>
+        </div>
+        <span class="notice-total" id="notice-total">
+        </span>
+       </div>
+       <div class="search-row">
+        <label class="search-field">
+         <span aria-hidden="true">
+          &telrec;
+         </span>
+         <span class="sr-only" data-i18n="search">
+          Search notices
+         </span>
+         <input autocomplete="off" data-placeholder="searchPlaceholder" id="search" placeholder="Search notices, places, or keywords&hellip;" type="search"/>
+         <kbd aria-hidden="true">
+          /
+         </kbd>
+        </label>
+        <label class="sort-field">
+         <span class="sr-only" data-i18n="sort">
+          Sort notices
+         </span>
+         <select id="sort">
+          <option data-i18n="newest" value="newest">
+           Newest first
+          </option>
+          <option data-i18n="oldest" value="oldest">
+           Oldest first
+          </option>
+          <option data-i18n="expiring" value="expiry">
+           Expiring soon
+          </option>
+          <option data-i18n="priority" value="priority">
+           Priority first
+          </option>
+         </select>
+        </label>
+       </div>
+       <div class="filter-row">
+        <div class="filter-controls">
+         <label>
+          <span data-i18n="location">
+           Location
+          </span>
+          <select id="location">
+           <option data-i18n="allLocations" value="all">
+            All locations
+           </option>
+          </select>
+         </label>
+         <label>
+          <span data-i18n="published">
+           Published
+          </span>
+          <select id="date-filter">
+           <option data-i18n="anyTime" value="all">
+            Any time
+           </option>
+           <option data-i18n="lastWeek" value="7">
+            Last 7 days
+           </option>
+           <option data-i18n="lastMonth" value="30">
+            Last 30 days
+           </option>
+          </select>
+         </label>
+         <label><span>Priority</span><select id="priority-filter"><option value="all">All priorities</option><option value="urgent">Urgent</option><option value="critical">Critical</option><option value="normal">Normal</option></select></label>
+         <label><span>Available in</span><select id="language-filter"><option value="all">All languages</option><option value="en">English</option><option value="hi">हिन्दी</option><option value="pa">ਪੰਜਾਬੀ</option></select></label>
+         <label><span>Status</span><select id="status-filter"><option value="all">All statuses</option><option value="active">Active</option><option value="expired">Expired</option></select></label>
+        </div>
+        <button class="text-button" data-i18n="clearFilters" id="clear-filters">
+         Reset filters
+        </button>
+       </div>
+       <div aria-live="polite" class="sr-only" id="result-announcement" role="status">
+       </div>
+       <div class="notice-grid" id="notice-grid">
+       </div>
+       <button class="button button-outline load-more" data-i18n="loadMore" hidden="" id="load-more">
+        Show more notices &darr;
+       </button>
+       <div class="results-footer">
+        <span class="status-dot">
+        </span>
+        <span data-i18n="demoReminder">
+         Demonstration only. All notices and organisations are
+                  fictional.
+        </span>
+       </div>
+      </div>
+     </section>
+    </div>
+    <section class="community-strip">
+     <div class="container">
+      <span aria-hidden="true" class="strip-symbol">
+       &nearrow;
+      </span>
+      <div>
+       <h2 data-i18n="stripTitle">
+        Good information connects us.
+       </h2>
+       <p data-i18n="stripDescription">
+        A small step towards a more informed, included community.
+       </p>
+      </div>
+      <a class="button button-outline" data-i18n="aboutProject" href="#about">
+       About the project &nearrow;
+      </a>
+     </div>
+    </section>
+   </section>
+   <!-- Publishing and translation workspace -->
+   <section aria-labelledby="admin-title" class="container admin-layout" hidden="" id="admin-view">
+    <div class="admin-top">
+     <div>
+      <div class="eyebrow">
+       COMMUNITY WORKSPACE
+      </div>
+      <h1 id="admin-title">
+       Community workspace
+       <span class="title-dot">
+        .
+       </span>
+      </h1>
+      <p id="session-label">
+      </p>
+     </div>
+     <button class="button button-outline" id="logout">
+      Exit workspace
+     </button>
+    </div>
+    <div class="info-panel">Publish clear notices, keep dates current, and review each language version before making it available.</div>
+    <div class="admin-stats" id="admin-stats">
+    </div>
+    <div class="admin-toolbar">
+     <div aria-label="Workspace section" class="tab-list" role="group">
+      <button class="active" data-admin-tab="notices">
+       Manage notices
+      </button>
+      <button data-admin-tab="reviews">
+       Translation review
+       <span id="review-count">
+       </span>
+      </button>
+      <button data-admin-tab="history">
+       Activity log
+      </button>
+      <button data-admin-tab="categories">
+       Categories
+      </button>
+     </div>
+     <div class="admin-toolbar-actions">
+      <button class="button button-outline" id="export-notices">
+       Export JSON
+      </button>
+      <button class="button button-primary" id="create-notice">
+       + Create notice
+      </button>
+     </div>
+    </div>
+    <div id="admin-content">
+    </div>
+   </section>
+  </main>
+  <!-- Footer -->
+  <footer class="site-footer">
+   <div class="container">
+    <a class="footer-brand" href="#board">
+     Saajha
+     <span>
+      &nearrow;
+     </span>
+    </a>
+    <p data-i18n="footerTag">
+     Making local information a little more human.
+    </p>
+    <div>
+     <a data-i18n="about" href="#about">
+      About &amp; accessibility
+     </a>
+     <span>
+      HTML &middot; CSS &middot; JavaScript
+     </span>
+    </div>
+   </div>
+   <div class="container footer-bottom">
+    <span>
+     Student project &middot; No real public advisories
+    </span>
+    <button class="text-button" id="reset-demo">
+     Reset reading preferences
+    </button>
+    <span>
+     Made for a community that understands.
+    </span>
+   </div>
+  </footer>
+  <!-- Shared details/editor dialog and toast notification -->
+  <dialog aria-labelledby="dialog-title" id="app-dialog">
+   <div class="dialog-heading">
+    <div class="eyebrow" id="dialog-kicker">
+    </div>
+    <button aria-label="Close dialog" class="icon-button" id="close-dialog">
+     &times;
+    </button>
+   </div>
+   <div id="dialog-content">
+   </div>
+  </dialog>
+  <div aria-live="polite" class="toast" hidden="" id="toast" role="status">
+  </div>
+ </body>
+</html>
